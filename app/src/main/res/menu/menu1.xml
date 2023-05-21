@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemred"
+        android:title="배경색빨강"/>
+    <item
+        android:id="@+id/itemgreen"
+        android:title="배경색빨강"/>
+    <item
+        android:id="@+id/itemblue"
+        android:title="배경색빨강"/>
+    <item
+        android:title="서브메뉴>>">
+        <menu>
+            <item
+                android:id="@+id/rotate"
+                android:title="회전"/>
+            <item
+                android:id="@+id/sizeup"
+                android:title="2배확대"/>
+        </menu>
+    </item>
+
+</menu>
